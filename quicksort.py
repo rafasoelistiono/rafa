@@ -7,5 +7,6 @@ def quicksort(arr):
         greater = [i for i in arr [1:] if i > pivot]
         return quicksort(less) + [pivot] + quicksort(greater)
     
-print(quicksort([9,7,5,4,3,11,5]))
+print(quicksort([9,7,5,4,3,12,11,5]))
 
+    
