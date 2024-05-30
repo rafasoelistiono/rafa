@@ -4,4 +4,4 @@ def sum(arr):
         total+=x
     return total
 
-print(sum([4,5,6,7]))
+print(sum([4,5,6,0]))
