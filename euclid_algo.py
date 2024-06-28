@@ -6,4 +6,3 @@ def gcd(a, b):
     return a   
 
 print(gcd(12,7))
-    
